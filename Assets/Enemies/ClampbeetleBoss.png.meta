@@ -1,0 +1,2103 @@
+fileFormatVersion: 2
+guid: b7b042fdf75ceff4eb46e70b01fe5a3f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clampbeetle_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 518
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a348cc40c89e3241993d21c8c90f38d
+      internalID: 857885252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 518
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5864106797cbd1439407228e544d206
+      internalID: -536511649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 518
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346e910fd931b9843bb7b7d68e0e9a30
+      internalID: 1238604005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 518
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb072ece648e6f418a23e5ea649b98d
+      internalID: -198673715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 517
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982084a92047d374c9f2abba58a35d94
+      internalID: 194919982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 516
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99afa5efd8301e543b935db0136c38de
+      internalID: -312866450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 516
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bd3cf5b8bfedc4f9429a570ffbab9c
+      internalID: 657909654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 517
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ae8ccad722d1545af42be0ac150d3e
+      internalID: -739089803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 463
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2396829929d8af48b246593d114509f
+      internalID: -705137016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 463
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d372ade3d43334241967ee52cea44ca3
+      internalID: 1133143357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 463
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2929e31939b7bb4f9cdaeb5ddbaab0d
+      internalID: -1668706224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 463
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e385939bac8bf741b1e2f3a47141ff3
+      internalID: -77045486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_12
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 463
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2f50499a7f2964788a162e3a2343b4
+      internalID: -1794316588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 462
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193a874ecf06e83448430373c51e75d1
+      internalID: 1830574409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_14
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 462
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81223a8369e8e034eac47f24e8b8fd93
+      internalID: 935519126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 463
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559a886b910844f4ca6a0ba4a3348ff6
+      internalID: 2042017678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 393
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d6b98d97105ae4ba139bec7a17c5eb
+      internalID: 1178267017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 393
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7f6d25d89a633468b22522ba1fb0e4
+      internalID: 629926154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 393
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e4bbce4851058478a9eaa6a6aa3a6f
+      internalID: -205755929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_19
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 393
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bd8222fde753f418a4c1f68255192a
+      internalID: 683093883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 392
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4af66bbc2293f4aa894bada8a44610
+      internalID: -1743043575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 391
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e4b32becbc8b84293add5c9c9a420a
+      internalID: -999184198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 391
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c56fe2c986526419f6ba6b8a77ea76
+      internalID: 161094662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 392
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a66d68f5c98a249baa525472378b1b
+      internalID: -1185517433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 327
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cbe5e37971c2c43b3e7a30cbfd6c49
+      internalID: 63986383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 326
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2bf6d16d3b1ef42b2c649bf2a4525f
+      internalID: -1146333560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_27
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 327
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4be74bbf683374cac43e481006ba18
+      internalID: -1205987010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_28
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 327
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31780e36c357ea5419fb411db3329b9c
+      internalID: 259273085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_29
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 326
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3585e6cf554344a1f59508df9e7f6
+      internalID: -1553893534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_31
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 327
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb474d793cbce64c9a2b1f0ffd82dfb
+      internalID: -1485162837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_32
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 326
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc61e45d00109a41941e09749f523fe
+      internalID: 1224671444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_37
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 326
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003830fd9793104fb323fdc0fd0c0b9
+      internalID: -680287156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 262
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef31ce6cde98f924e8eb220d6011b2e9
+      internalID: -791498485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_45
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 261
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c473a599fb17c741b694a5cd1206c07
+      internalID: 1230744281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 273
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f7b3b77e825b54eabd9bc7f16ea4fd
+      internalID: 506630024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_47
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 267
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8b8a0e0f1ea704ea4006ec3a8cc374
+      internalID: -1722174078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_48
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 262
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96056a98dbd9c904f8809a53cf79648d
+      internalID: 1773586279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_49
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 261
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b16295be521874aa11397b5dc002f2
+      internalID: -1474412173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_50
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 262
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053cfa99560325447a1856c707fa0103
+      internalID: 1533672366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_51
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 267
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f813080d7d46ad445a0549629bd8107e
+      internalID: 360285972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_68
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 194
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c42f817745d1a41ad2232a5bf33f63
+      internalID: -1003766672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_69
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 194
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e91a904211da834ab63726a01b3fd16
+      internalID: -372901984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_70
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 202
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefad2ae822695642833da3ff2e404de
+      internalID: -1055389317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_74
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 194
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a186abb76a4240aac6836d17cdf19
+      internalID: -1070499208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_75
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 194
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ada07e65923594b878e5d23bb65e23
+      internalID: -153638777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_76
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 202
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def4a8b30d840fb4686927fe71103b97
+      internalID: 555166768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_81
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 204
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf175819f7826944b750c2b28019097
+      internalID: 1656417760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_83
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 203
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b213671ec2c944d4b980a511cef0b94b
+      internalID: 685767264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_90
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 135
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaefe1970d28ba4e9f43e5481f1e599
+      internalID: -1627988875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_91
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 138
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631e68623f97b604fa79fb348c80f3f4
+      internalID: 47155910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_92
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 139
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c63a286da501ec4d82b130575f8e968
+      internalID: 2069087296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_93
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 140
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a44cd55fb441348bc987c9d16467a8
+      internalID: 230359201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_94
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 140
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cbb9ce6d68c0147858d579fe377a52
+      internalID: 1785452416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_95
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 137
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc11f00885d9fa428bf6cac15c44093
+      internalID: 1714366017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_96
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 133
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4423323511f9946488ab09194ff4b955
+      internalID: 1948464737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_97
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 133
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92736a9c40c99a5438ac3e89b483744f
+      internalID: 1397427597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_98
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 133
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05ba91e9468b084da33e73ee27f1ad8
+      internalID: -627611166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_99
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 133
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab19f10acf83e6b44bc2c8b15af96a9b
+      internalID: 775854399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_100
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 132
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf758f8c9a25a7a42b3b474e82257acd
+      internalID: -820579564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_101
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 131
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f322f46e1b89e74e83dc46a06b1a60c
+      internalID: 1033471478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_102
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 131
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de853387dfa570a4596447992d70bb12
+      internalID: -425609489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_103
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 75
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798e7b79d44316c4f9b7b6fdfd8d0af6
+      internalID: 849438114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_104
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 78
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0503313794b4574191759b7e6da410e
+      internalID: 1368955327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_105
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 81
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d9b565823a9d049a8615ed732de880
+      internalID: -886979155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_106
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 82
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce91a2d17724a64991e49fe94f6b01f
+      internalID: 857290841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_107
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 84
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e314798c6b2274d83a6fc46602f1f3
+      internalID: -1017292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_108
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 81
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7282507b16ff7b4da500b212bc932ef
+      internalID: -609798058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_109
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 76
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759ffb8211dff0543ae65a136444eb4c
+      internalID: 111712539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_110
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 75
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f9218832ba3c54dad742a4e6d33775
+      internalID: 417323936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_111
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 75
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1c5b541e1ba68418018b09cf484665
+      internalID: -1902778024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_112
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 77
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca966487ac76884cb2dc309192d5eab
+      internalID: 897677700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_113
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 76
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cda00b21a92b9b4794d754d3f6daa90
+      internalID: 1335465220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_114
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 75
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9393e10700bf9824a83f3b2f33831833
+      internalID: 1228865436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_115
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 75
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f2f30ecb152c840bffffb1274a42bf
+      internalID: 1303635992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_116
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d25dcc39a72cbc4499461278f1d26c8
+      internalID: -1703571733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_117
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 15
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545cd01f03d2f4d468c403f5364d6f95
+      internalID: 278091484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_118
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 16
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8268aef811d2cf4e9eb64f82b9343ed
+      internalID: 725693456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_119
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 16
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2643e0e68ea2bc0468fb004475b41068
+      internalID: -2110650069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_120
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 16
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2575fff1f13294bae87741e48e834f
+      internalID: -104604455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_121
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 13
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee12b5c7277d39f49965739f021e24fe
+      internalID: -396605047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_122
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 8
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc7fa0984a9f774c982adbd9ea3af7c
+      internalID: 994033781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_123
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 8
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873a33e3bc2a5eb41b957c0e6a8fbd82
+      internalID: 1321124456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_124
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 8
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bab8dd4d27ca394799a074153d06fca
+      internalID: -1601529718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_125
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 10
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9174c08bbc7e842ae02674d40b9c6f
+      internalID: 1163800037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_126
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 7
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d76076a4a4dfb47a510a3c8e902664
+      internalID: -50959803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_127
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d12aee7fbf3ab4198cdba8b36a1745
+      internalID: 1032820066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clampbeetle_128
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 6
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463e7bd52befdae4daa4154e11707ac2
+      internalID: 1017409142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Clampbeetle_6: 657909654
+      Clampbeetle_38: 1754553993
+      Clampbeetle_63: -1808903540
+      Clampbeetle_29: -1553893534
+      Clampbeetle_5: -312866450
+      Clampbeetle_81: 1656417760
+      Clampbeetle_14: 935519126
+      Clampbeetle_20: -1743043575
+      Clampbeetle_7: -739089803
+      Clampbeetle_109: 111712539
+      Clampbeetle_10: -1668706224
+      Clampbeetle_65: 399391619
+      Clampbeetle_104: 1368955327
+      Clampbeetle_16: 1178267017
+      Clampbeetle_32: 1224671444
+      Clampbeetle_125: 1163800037
+      Clampbeetle_122: 994033781
+      Clampbeetle_12: -1794316588
+      Clampbeetle_88: -2123383744
+      Clampbeetle_8: -705137016
+      Clampbeetle_102: -425609489
+      Clampbeetle_13: 1830574409
+      Clampbeetle_119: -2110650069
+      Clampbeetle_17: 629926154
+      Clampbeetle_113: 1335465220
+      Clampbeetle_18: -205755929
+      Clampbeetle_55: 1272102513
+      Clampbeetle_59: -1170881747
+      Clampbeetle_128: 1017409142
+      Clampbeetle_100: -820579564
+      Clampbeetle_19: 683093883
+      Clampbeetle_57: 1757194284
+      Clampbeetle_24: 63986383
+      Clampbeetle_28: 259273085
+      Clampbeetle_41: 1127317426
+      Clampbeetle_83: 685767264
+      Clampbeetle_93: 230359201
+      Clampbeetle_15: 2042017678
+      Clampbeetle_43: 1988502032
+      Clampbeetle_49: -1474412173
+      Clampbeetle_95: 1714366017
+      Clampbeetle_23: -1185517433
+      Clampbeetle_52: 1828039949
+      Clampbeetle_58: 434063918
+      Clampbeetle_9: 1133143357
+      Clampbeetle_27: -1205987010
+      Clampbeetle_76: 555166768
+      Clampbeetle_22: 161094662
+      Clampbeetle_53: -1057888925
+      Clampbeetle_34: -1664802453
+      Clampbeetle_68: -1003766672
+      Clampbeetle_74: -1070499208
+      Clampbeetle_123: 1321124456
+      Clampbeetle_99: 775854399
+      Clampbeetle_66: -1879671299
+      Clampbeetle_39: 718951195
+      Clampbeetle_54: -1092621920
+      Clampbeetle_101: 1033471478
+      Clampbeetle_111: -1902778024
+      Clampbeetle_107: -1017292
+      Clampbeetle_82: 1336547003
+      Clampbeetle_106: 857290841
+      Clampbeetle_69: -372901984
+      Clampbeetle_70: -1055389317
+      Clampbeetle_126: -50959803
+      Clampbeetle_33: -273429549
+      Clampbeetle_120: -104604455
+      Clampbeetle_30: -1259572261
+      Clampbeetle_115: 1303635992
+      Clampbeetle_26: 1578032663
+      Clampbeetle_90: -1627988875
+      Clampbeetle_11: -77045486
+      Clampbeetle_117: 278091484
+      Clampbeetle_25: -1146333560
+      Clampbeetle_96: 1948464737
+      Clampbeetle_0: 857885252
+      Clampbeetle_21: -999184198
+      Clampbeetle_31: -1485162837
+      Clampbeetle_67: 280488035
+      Clampbeetle_40: -1054788211
+      Clampbeetle_42: -243409798
+      Clampbeetle_61: -1498429635
+      Clampbeetle_94: 1785452416
+      Clampbeetle_118: 725693456
+      Clampbeetle_51: 360285972
+      Clampbeetle_85: -267806241
+      Clampbeetle_108: -609798058
+      Clampbeetle_89: 1696720646
+      Clampbeetle_73: 777954007
+      Clampbeetle_105: -886979155
+      Clampbeetle_1: -536511649
+      Clampbeetle_92: 2069087296
+      Clampbeetle_127: 1032820066
+      Clampbeetle_78: 1193314423
+      Clampbeetle_56: -1877138324
+      Clampbeetle_75: -153638777
+      Clampbeetle_45: 1230744281
+      Clampbeetle_98: -627611166
+      Clampbeetle_91: 47155910
+      Clampbeetle_124: -1601529718
+      Clampbeetle_50: 1533672366
+      Clampbeetle_36: -1679921960
+      Clampbeetle_64: -1594464217
+      Clampbeetle_110: 417323936
+      Clampbeetle_4: 194919982
+      Clampbeetle_62: -1081977038
+      Clampbeetle_86: 2026943483
+      Clampbeetle_2: 1238604005
+      Clampbeetle_3: -198673715
+      Clampbeetle_46: 506630024
+      Clampbeetle_72: 693674006
+      Clampbeetle_71: -2018549979
+      Clampbeetle_79: -562193617
+      Clampbeetle_44: -791498485
+      Clampbeetle_97: 1397427597
+      Clampbeetle_80: 903558433
+      Clampbeetle_60: -1107605785
+      Clampbeetle_87: -244891344
+      Clampbeetle_121: -396605047
+      Clampbeetle_77: -131292865
+      Clampbeetle_47: -1722174078
+      Clampbeetle_103: 849438114
+      Clampbeetle_112: 897677700
+      Clampbeetle_114: 1228865436
+      Clampbeetle_84: 1359979217
+      Clampbeetle_116: -1703571733
+      Clampbeetle_48: 1773586279
+      Clampbeetle_35: 275653837
+      Clampbeetle_37: -680287156
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

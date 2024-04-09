@@ -1,0 +1,24 @@
+
+1- Towers do not return to default position after finishing attack.
+
+
+
+
+
+
+
+-----To Do List By Order-----
+
+-Game Balance 
+
+-SFX and background adjustment for both ui and levels
+
+-Win-Lose Panel at the end of the game.
+
+eksik olan ses efektleri ve müzikler:
+
+2-patlama ses efekti
+3-oyun içi arka plan müziði.
+4-dalga baþladýðý zaman ses efekti.
+
+

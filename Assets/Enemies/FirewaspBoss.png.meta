@@ -1,0 +1,2631 @@
+fileFormatVersion: 2
+guid: fed4b63d6b755c8419d74fd1b72762ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FirewaspBoss_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 789
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ece2db9b86961344a8e187c7b5e2572
+      internalID: 1892037240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 788
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6edd620bc136740b85a4d1b5151284
+      internalID: 528832984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 790
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90adcbcb6654fd043824c20cc85617c8
+      internalID: 284662632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 791
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c5bb8356de85145a435d679d3cf71f
+      internalID: -382433880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 792
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f497247da024d4fa79a80c47ddca45
+      internalID: -447953686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_5
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 790
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d38d266db9cbc4f8b2c3ec8a68a29d
+      internalID: 685981318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 789
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03a6d3e61cf3e04aa42b71329748719
+      internalID: -1460995753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_7
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 788
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fca456d78b9ee42b931dd6a1a4fcd7
+      internalID: 1203293948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_8
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 790
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c733e7db33c8a2c4eaa5b2ecb9a20089
+      internalID: 523132834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_9
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 791
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa7a91f06b9a76438f233ca61948708
+      internalID: -1720260550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_10
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 792
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa6c03a537db74ba7b6170ae81205c
+      internalID: 1019565923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_11
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 790
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1f5af69057673479af3ff987c21f21
+      internalID: 75792550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 695
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4153529863e3dc0439db80ef1f11b390
+      internalID: -252510924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 694
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51260842a8f3fa748b7ab6479453fad6
+      internalID: -708420110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 695
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30a6e93ec9b7eb4494d635695baecff
+      internalID: 676006881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 696
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dead441f85c0bb4f9168c09f40e89ff
+      internalID: -1505693783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 697
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e52088c66f9e040ba0c7d928af056c
+      internalID: 1659823506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 696
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ae3486127a604d8c43bb0690b076b
+      internalID: 648645928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 695
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5e9b45ed81d6d44a441bc86f2d875f
+      internalID: 1780049945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_20
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 694
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad6db5493647224094e70969f8c7aea
+      internalID: -1251562456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_21
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 695
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fcc47bfe6bf2f4c83d629ebde81aaa
+      internalID: 513967232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_22
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 696
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3f007a307c9cd479654e90c4ab9176
+      internalID: -686905692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_23
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 697
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cf6ddeb4adde64fb6d1863a7b8a0bc
+      internalID: -227625750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_25
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 696
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdff255992543d4aa4ea3c8536c8325
+      internalID: -357616810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_26
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 593
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea4b5896f0c0543bc26041f2d7888d
+      internalID: 400471177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 594
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2fda49a30b9e84e98946c58cddc90b
+      internalID: -1495731807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 593
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d9c9f51adbb2b4e83d7b8146296ebe
+      internalID: 1005351671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_29
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 594
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99efcc6fd8c12247b3b460801182abc
+      internalID: -382861221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 594
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efc65b531e3cf94d8f69d5405971dfe
+      internalID: 139501524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 593
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9389e9c7a8e3033478844c7e5acd3cc6
+      internalID: -373855375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_32
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 595
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e995c447d40eb449fa6eaad65f8b4f
+      internalID: 717940554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_33
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 594
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcdefab1aaa65448a7cd14df0401b65
+      internalID: 1583614292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_34
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 593
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e71fbfc8e44e1744902d0b8d1e53c96
+      internalID: 1680860720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_35
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 593
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd563e7241959b24bb14b89dde5447ab
+      internalID: -723749782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_36
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 594
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd4f76bbd821054494fbed653bc8747
+      internalID: 204076544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_37
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 593
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fdf7d53b638d04ab4a7b349a150370
+      internalID: -1845228375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 501
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486d997397de20743886f5a80c8ea7d2
+      internalID: 902495394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 500
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2000bf762da6fa4ab2ac65ce029a713
+      internalID: 985667953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 501
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21024a78e777c8c46943ab68c50a752e
+      internalID: 600452278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 502
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d03e411be1aea429269b41e6eccb3d
+      internalID: -1931775257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_60
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 501
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f09e12f095bee4c94825163c1bb805
+      internalID: 439681299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_61
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 500
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f30e773788e0de4da5541dd617d4913
+      internalID: 95794027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_62
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 501
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17486cb9776c744ea4e1053f74054b8
+      internalID: -1196461364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_63
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 502
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220c44c12a05ebb4f883e48fbb5d3e83
+      internalID: -2120794768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 407
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ed1b0f78dd2234ebbb6d329e0e1811
+      internalID: -949308376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_65
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 406
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7679036caacdbb8479921f6cb79083ee
+      internalID: 943300409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 407
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac174f9395daa347937141931f4516c
+      internalID: 1390657066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 408
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b722c9275a7f94581e11006673c773
+      internalID: -1372284054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_68
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 407
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ddd93c708353943b66a3dbe63ae588
+      internalID: -1114385345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_69
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 406
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46622556eadca2c48a477a84ecdb1c00
+      internalID: 450826204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_70
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 407
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45064c662cfd8464c9bdda52394c3f07
+      internalID: 1473335993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_71
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 408
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad64515c2d513c43a289895160c632d
+      internalID: 603178616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_72
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 322
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ddc90caaf65234dac537d1dee2121f
+      internalID: -1627636229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_73
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 305
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a426eec1930058441b50a2b583a3ffe4
+      internalID: -1456592370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_74
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 305
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d7c6e7a09772041911da7f634d448a
+      internalID: 1993958953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_75
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 325
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fac759a9ab7502469b4f5e30b1667d9
+      internalID: 1181287775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_76
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 318
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf6c14a57e647f49b43474e6f40920a
+      internalID: -1184121116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_77
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 322
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394d13df8f0767648ae40b1dd235b7ad
+      internalID: -1659004094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_78
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 305
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01212f39b3011541bd7fe86f4e1eee5
+      internalID: -1314318872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_79
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 305
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c872f3aa29c569b43806b60d43c92acb
+      internalID: -1494585211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_80
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 325
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47c24dc26b811c4d83a336a7216a8b5
+      internalID: -1648960579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_81
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 318
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747e70b3aeebb5e45bbc2b5fd8dcbb57
+      internalID: -1420380443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_82
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 315
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ad4bd7c4c69324790acc214bbe1ec1
+      internalID: 1161699847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_83
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 313
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bede47763c243d8418023fd7304fc8fb
+      internalID: -2034451558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_84
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 309
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284fc0364f86e754099e54bb5a41926f
+      internalID: -1005684757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_85
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 315
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4930072abc62e8942b6c74ce2f1b08c4
+      internalID: 1033038863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_86
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 313
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a7ca49025e24c4fad24d4bfd218fb4
+      internalID: 1552467465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_87
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 309
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a283bd11184b7cb40bef8d44b624ff40
+      internalID: 1781790176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_88
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 308
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce3c6b5b0927ed4db6bf82f38892c9b
+      internalID: -248671011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_89
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 304
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d1151ed1451b546a39b9818bb91934
+      internalID: 138739620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_90
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 308
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d44f123e44a6724694eefa4fcaabeff
+      internalID: -1061661042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_91
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 304
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f9ec9d5fae3f644bf4d9f1cf5fea12
+      internalID: 1144459252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_92
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 304
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bddfe8507b217645a1cbb07ce190f74
+      internalID: 1601904071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_93
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 304
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1256942a38e5c1c47800b8287434d187
+      internalID: -881097766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_94
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 213
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fced0bd1d4a7af84c88e8261aaad20ef
+      internalID: -475596648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 215
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd0f65deb37abf42937cc631fa40f5a
+      internalID: 1816971983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_96
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 216
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2bd9a78951fe24a984fe250656a360
+      internalID: 1356541849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_97
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 216
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b477610013aa74c42805e4170899b8da
+      internalID: 899664916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_98
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 212
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d868452d4eb934e9c5f8611b163a36
+      internalID: 697606468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_99
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 207
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d4d7898f212046965e82d3067058f
+      internalID: 532889254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_100
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 205
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81540baeade77b4fab790d03e5db67a
+      internalID: 391805703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_101
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 204
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0f8c793e2fe534aa6f18f7a1cc16ad
+      internalID: 1411819140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_102
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 203
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdac668f6b8f2e49a2b182d682b932c
+      internalID: 2101895291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_103
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 203
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9487142394dd3ed4cbf49f637657e297
+      internalID: -886720937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_104
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 203
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d27a743617b2fb4583a5ae8bdf4b912
+      internalID: -2032983764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_105
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 208
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efdb890da9f8c94dbf9abdd64fb1fa7
+      internalID: 1942249451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 119
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64af5fe2315d55549977c68fb0472858
+      internalID: -1587054485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_107
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 121
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b187c17f13bf1464d9853ace8bf03db2
+      internalID: -389621449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_108
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 122
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd170bdb6e52d43418285bfdcf90da7b
+      internalID: -1560742388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_109
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 122
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127659e42cc7c9b47b2ac87c987fbbdf
+      internalID: 1157722765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_110
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 118
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c6b0ae44c74dd4aa334818c778e2ce
+      internalID: 829320711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_111
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 111
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc6c4fd23e89914e959f7b0114197e0
+      internalID: -1634146159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_112
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 109
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ab999231da26f4b9f054cb607e4174
+      internalID: 1167890908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_113
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 108
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbbaa71a9a497443bd9b5326cc545d9
+      internalID: -1767788154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_114
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 109
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707c414f4527d8a4283c507129e21d6c
+      internalID: -94839457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_115
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 107
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161c2a7822a69214da9fa260f00739fc
+      internalID: -1754852007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_116
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 107
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5521663378d152048bd6db8f44f51aa2
+      internalID: 1671726058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_117
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 112
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af2074e56b9e9748a9ffb743018de04
+      internalID: 1338028310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_118
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 107
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2685120e3ab4e4280d57a9a11388dd
+      internalID: 1649899961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_119
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6e52b2c64c5a64493134bd5fb3d101
+      internalID: 104643019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_120
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 19
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb94e8c954b973429c002b1fa8ea1d9
+      internalID: 1914441460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_121
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 21
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7734a3900913c404885cf86bf471f8fc
+      internalID: 1092710308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_122
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 22
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b6c3605bd660846b6c3c44dac3dded
+      internalID: 2078041151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_123
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 43
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fba644a7e6bbd54e8a714bd1891badf
+      internalID: -43730150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_124
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 38
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509c44d61e87abd40bc01b51c5de1b17
+      internalID: -788905844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_125
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 32
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90485074c3a6474cbee71a6e9280845
+      internalID: -1575835275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_126
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 12
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd917f08ca91ed4c8e461c4d610c0f9
+      internalID: 1842875069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_127
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 11
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7a829eb3ccdb142b356e3a3a761832
+      internalID: -1611111462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_128
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 11
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e71239f7ed804d9c59e0f4b6cc68c
+      internalID: -1757799493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_129
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 11
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8f0d274402abc4390010e9ff699398
+      internalID: -156967998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_130
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 11
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2645b5cde7b884fb3ca254434c394f
+      internalID: -495732371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirewaspBoss_131
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 11
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c21d6205f99ad24e9abe58b461599c1
+      internalID: 2054254092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FirewaspBoss_14: 676006881
+      FirewaspBoss_81: -1420380443
+      FirewaspBoss_61: 95794027
+      FirewaspBoss_104: -2032983764
+      FirewaspBoss_4: -447953686
+      FirewaspBoss_6: -1460995753
+      FirewaspBoss_75: 1181287775
+      FirewaspBoss_82: 1161699847
+      FirewaspBoss_62: -1196461364
+      FirewaspBoss_12: -252510924
+      FirewaspBoss_66: 1390657066
+      FirewaspBoss_0: 1892037240
+      FirewaspBoss_120: 1914441460
+      FirewaspBoss_31: -373855375
+      FirewaspBoss_125: -1575835275
+      FirewaspBoss_51: 1715477526
+      FirewaspBoss_102: 2101895291
+      FirewaspBoss_109: 1157722765
+      FirewaspBoss_17: 495402305
+      FirewaspBoss_22: -686905692
+      FirewaspBoss_59: -1931775257
+      FirewaspBoss_96: 1356541849
+      FirewaspBoss_5: 685981318
+      FirewaspBoss_21: 513967232
+      FirewaspBoss_44: -2137804661
+      FirewaspBoss_37: -1845228375
+      FirewaspBoss_40: 1543065455
+      FirewaspBoss_100: 391805703
+      FirewaspBoss_35: -723749782
+      FirewaspBoss_63: -2120794768
+      FirewaspBoss_112: 1167890908
+      FirewaspBoss_119: 104643019
+      FirewaspBoss_113: -1767788154
+      FirewaspBoss_127: -1611111462
+      FirewaspBoss_78: -1314318872
+      FirewaspBoss_92: 1601904071
+      FirewaspBoss_98: 697606468
+      FirewaspBoss_46: -1914034996
+      FirewaspBoss_27: -1495731807
+      FirewaspBoss_80: -1648960579
+      FirewaspBoss_34: 1680860720
+      FirewaspBoss_87: 1781790176
+      FirewaspBoss_71: 603178616
+      FirewaspBoss_117: 1338028310
+      FirewaspBoss_16: 1659823506
+      FirewaspBoss_13: -708420110
+      FirewaspBoss_69: 450826204
+      FirewaspBoss_58: 600452278
+      FirewaspBoss_70: 1473335993
+      FirewaspBoss_123: -43730150
+      FirewaspBoss_19: 1780049945
+      FirewaspBoss_48: -927557819
+      FirewaspBoss_25: -357616810
+      FirewaspBoss_118: 1649899961
+      FirewaspBoss_114: -94839457
+      FirewaspBoss_131: 2054254092
+      FirewaspBoss_67: -1372284054
+      FirewaspBoss_128: -1757799493
+      FirewaspBoss_38: 1427294194
+      FirewaspBoss_105: 1942249451
+      FirewaspBoss_97: 899664916
+      FirewaspBoss_8: 523132834
+      FirewaspBoss_64: -949308376
+      FirewaspBoss_36: 204076544
+      FirewaspBoss_95: 1816971983
+      FirewaspBoss_77: -1659004094
+      FirewaspBoss_84: -1005684757
+      FirewaspBoss_108: -1560742388
+      FirewaspBoss_41: -1573884590
+      FirewaspBoss_52: -1766079997
+      FirewaspBoss_50: -881767175
+      FirewaspBoss_73: -1456592370
+      FirewaspBoss_45: -340312533
+      FirewaspBoss_28: 1005351671
+      FirewaspBoss_29: -382861221
+      FirewaspBoss_91: 1144459252
+      FirewaspBoss_15: -1505693783
+      FirewaspBoss_106: -1587054485
+      FirewaspBoss_116: 1671726058
+      FirewaspBoss_26: 400471177
+      FirewaspBoss_56: 902495394
+      FirewaspBoss_110: 829320711
+      FirewaspBoss_7: 1203293948
+      FirewaspBoss_33: 1583614292
+      FirewaspBoss_126: 1842875069
+      FirewaspBoss_57: 985667953
+      FirewaspBoss_76: -1184121116
+      FirewaspBoss_18: 648645928
+      FirewaspBoss_20: -1251562456
+      FirewaspBoss_11: 75792550
+      FirewaspBoss_49: 53244544
+      FirewaspBoss_39: -1285144447
+      FirewaspBoss_124: -788905844
+      FirewaspBoss_24: -295196404
+      FirewaspBoss_72: -1627636229
+      FirewaspBoss_74: 1993958953
+      FirewaspBoss_90: -1061661042
+      FirewaspBoss_94: -475596648
+      FirewaspBoss_85: 1033038863
+      FirewaspBoss_130: -495732371
+      FirewaspBoss_122: 2078041151
+      FirewaspBoss_93: -881097766
+      FirewaspBoss_89: 138739620
+      FirewaspBoss_10: 1019565923
+      FirewaspBoss_129: -156967998
+      FirewaspBoss_107: -389621449
+      FirewaspBoss_43: 1023225799
+      FirewaspBoss_54: 1700397918
+      FirewaspBoss_86: 1552467465
+      FirewaspBoss_115: -1754852007
+      FirewaspBoss_2: 284662632
+      FirewaspBoss_55: -1397240136
+      FirewaspBoss_60: 439681299
+      FirewaspBoss_47: -546634307
+      FirewaspBoss_1: 528832984
+      FirewaspBoss_30: 139501524
+      FirewaspBoss_3: -382433880
+      FirewaspBoss_103: -886720937
+      FirewaspBoss_65: 943300409
+      FirewaspBoss_101: 1411819140
+      FirewaspBoss_23: -227625750
+      FirewaspBoss_32: 717940554
+      FirewaspBoss_99: 532889254
+      FirewaspBoss_42: 1236843198
+      FirewaspBoss_88: -248671011
+      FirewaspBoss_111: -1634146159
+      FirewaspBoss_53: -1320752647
+      FirewaspBoss_83: -2034451558
+      FirewaspBoss_68: -1114385345
+      FirewaspBoss_9: -1720260550
+      FirewaspBoss_79: -1494585211
+      FirewaspBoss_121: 1092710308
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
