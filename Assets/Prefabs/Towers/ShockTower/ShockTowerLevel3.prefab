@@ -901,8 +901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 2.5
-  attackSpeed: 0.75
-  additionalAttackPower: 0
+  attackSpeed: 1.75
   rotationPoint: {fileID: 0}
   enemyLayer:
     serializedVersion: 2

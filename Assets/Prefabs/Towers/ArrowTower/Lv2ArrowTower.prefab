@@ -886,8 +886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 2.2
-  attackSpeed: 1.75
-  towerName: ArrowTower
+  attackSpeed: 2.5
   rotationPoint: {fileID: 8753090044125485045}
   enemyLayer:
     serializedVersion: 2

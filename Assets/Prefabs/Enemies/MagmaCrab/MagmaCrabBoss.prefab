@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3637564758037376803}
   - component: {fileID: 3637564758037376802}
   - component: {fileID: 1788819165090643192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MagmaCrabBoss
   m_TagString: boss
   m_Icon: {fileID: 0}

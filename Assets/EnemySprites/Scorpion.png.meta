@@ -1655,11 +1655,10 @@ TextureImporter:
       Scorpion_5: -1377249215
       Scorpion_37: -559051414
       Scorpion_47: -1052505264
-      Scorpion_54: 1779382958
-      Scorpion_20: 1997177084
       Scorpion_60: -372855306
+      Scorpion_20: 1997177084
+      Scorpion_0: 1215785859
       Scorpion_27: 2084636165
-      Scorpion_70: -765028704
       Scorpion_65: -1572287831
       Scorpion_9: -215152882
       Scorpion_8: 381069693
@@ -1709,6 +1708,7 @@ TextureImporter:
       Scorpion_58: -131054812
       Scorpion_13: 210212039
       Scorpion_62: -777255367
+      Scorpion_70: -765028704
       Scorpion_41: -1898299105
       Scorpion_64: -2018816006
       Scorpion_50: -1700066509
@@ -1721,7 +1721,7 @@ TextureImporter:
       Scorpion_48: 861509703
       Scorpion_15: 139254825
       Scorpion_31: -917335729
-      Scorpion_0: 1215785859
+      Scorpion_54: 1779382958
       Scorpion_21: -1749848508
   spritePackingTag: 
   pSDRemoveMatte: 0

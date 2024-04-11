@@ -21,7 +21,7 @@ public class Tower : MonoBehaviour
     protected float additionalAttackPower;
     protected float timeBetweenAttacks;
     protected float timeRemainedBetweenAttacks = 0f;
-    private readonly float defaultAttackSpeed = 3f;
+    private readonly float defaultAttackSpeed = 4f;
     #endregion
 
 
