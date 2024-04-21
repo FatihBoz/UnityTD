@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MS: 0.8
-  maxHP: 1200
+  maxHP: 1000
   hpPowerScale: 0.4
   speedPowerScale: 0.2
   img: {fileID: 2382088705823994062}

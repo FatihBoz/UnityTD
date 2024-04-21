@@ -124,8 +124,8 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 128
-  projectileDamage: 6
-  explosionRadius: 2
+  projectileDamage: 9
+  explosionRadius: 2.1
 --- !u!82 &-6390839851829348413
 AudioSource:
   m_ObjectHideFlags: 0

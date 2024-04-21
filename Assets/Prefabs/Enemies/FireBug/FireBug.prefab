@@ -367,4 +367,4 @@ MonoBehaviour:
   img: {fileID: 5108657758543097303}
   offSet: {x: 0, y: 0.15, z: 0}
   dieEffect: {fileID: 2078161971024290732, guid: 8b4948cdc7cadaf42b11ef1db4fc2a13, type: 3}
-  goldGainedFromEnemy: 20
+  goldGainedFromEnemy: 12
