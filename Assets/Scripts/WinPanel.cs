@@ -28,9 +28,6 @@ public class WinPanel : MonoBehaviour
     [Header("Other Texts")]
     [SerializeField] private TextMeshProUGUI difficultyText;
 
-    [Header("References")]
-    [SerializeField]private Resources resources;
-
 
 
     #region PRIVATE
@@ -38,17 +35,12 @@ public class WinPanel : MonoBehaviour
 
     private float currentDifficultyScale;
 
-    private int lowerBoundOfGold = 750;
-    private int upperBoundOfGold = 1050;
+    private readonly int lowerBoundOfGold = 750;
+    private readonly int upperBoundOfGold = 1050;
 
-    private int lowerBoundOfResource = 350;
-    private int upperBoundOfResource = 700;
+    private readonly int lowerBoundOfResource = 350;
+    private readonly int upperBoundOfResource = 700;
     #endregion
-
-    private void Awake()
-    {
-        resources = GameObject.FindGameObjectWithTag("ResourceManager").GetComponent<Resources>();    
-    }
 
     private void Start()
     {
@@ -58,7 +50,6 @@ public class WinPanel : MonoBehaviour
 
         DetermineLevel();
         DisplayDifficulty();
-
         GainResources(); 
     }
 
@@ -123,7 +114,7 @@ public class WinPanel : MonoBehaviour
 
         goldText.text = gold.ToString();
 
-        resources.GainGoldCoin((int)gold);
+        Resources.resources.GainGoldCoin((int)gold);
         //Gain resource
     }
 
@@ -140,7 +131,7 @@ public class WinPanel : MonoBehaviour
 
         woodText.text = wood.ToString();
 
-        resources.GainWood((int)wood);
+        Resources.resources.GainWood((int)wood);
         //Gain resource
     }
 
@@ -157,7 +148,7 @@ public class WinPanel : MonoBehaviour
 
         stoneText.text = stone.ToString();
 
-        resources.GainStone((int)stone);
+        Resources.resources.GainStone((int)stone);
         //Gain resource
     }
 
@@ -174,7 +165,7 @@ public class WinPanel : MonoBehaviour
 
         steelText.text = steel.ToString();
 
-        resources.GainSteel((int)steel);
+        Resources.resources.GainSteel((int)steel);
         //Gain resource
     }
 

@@ -12,11 +12,9 @@ public class ResourcesUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI steelText;
     #endregion
 
-    [SerializeField] private Resources resources;
-
     private void Start()
     {
-        RefreshResources();
+        ResourcesUI_RefreshResources();
     }
 
     void RefreshGoldText(int goldCoin)
@@ -41,12 +39,22 @@ public class ResourcesUI : MonoBehaviour
     }
 
 
-    public void RefreshResources()
+    public void ResourcesUI_RefreshResources()
     {
-        RefreshGoldText(resources.GetGoldCoinCount());
-        RefreshWoodText(resources.GetWoodCount());
-        RefreshStoneText(resources.GetStoneCount());
-        RefreshSteelText(resources.GetSteelCount());
+        RefreshGoldText(Resources.resources.GetGoldCoinCount());
+        RefreshWoodText(Resources.resources.GetWoodCount());
+        RefreshStoneText(Resources.resources.GetStoneCount());
+        RefreshSteelText(Resources.resources.GetSteelCount());
+    }
+
+    private void OnEnable()
+    {
+        Resources.RefreshUI += ResourcesUI_RefreshResources;
+    }
+
+    private void OnDisable()
+    {
+        Resources.RefreshUI -= ResourcesUI_RefreshResources;
     }
 
 }

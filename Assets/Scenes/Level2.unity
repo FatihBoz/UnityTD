@@ -14805,51 +14805,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e03812c0a07c3e445888efe6cc8499a8, type: 3}
---- !u!1 &620812990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 620812992}
-  - component: {fileID: 620812991}
-  m_Layer: 0
-  m_Name: ResourcesManager
-  m_TagString: ResourceManager
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &620812991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620812990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b64a43c50b321b949a4892afd9a01793, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ui: {fileID: 0}
---- !u!4 &620812992
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620812990}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1169887046}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &621031307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39806,7 +39761,6 @@ Transform:
   - {fileID: 959857574}
   - {fileID: 1358396351}
   - {fileID: 1213739086}
-  - {fileID: 620812992}
   - {fileID: 1611036919}
   - {fileID: 2127902857}
   m_Father: {fileID: 0}
@@ -49734,7 +49688,7 @@ Transform:
   - {fileID: 835787802}
   - {fileID: 1014901111}
   m_Father: {fileID: 1169887046}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1615372855
 GameObject:
@@ -60944,7 +60898,6 @@ MonoBehaviour:
   stoneText: {fileID: 1302424069}
   steelText: {fileID: 1073658201}
   difficultyText: {fileID: 1110941891}
-  resources: {fileID: 620812991}
 --- !u!114 &2014595313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63592,7 +63545,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1169887046}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2127902858
 MonoBehaviour:

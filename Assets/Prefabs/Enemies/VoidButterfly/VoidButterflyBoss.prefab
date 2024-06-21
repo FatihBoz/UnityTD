@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2824847507341930051}
   - component: {fileID: 2824847507341930050}
   - component: {fileID: 2824847507133436988}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: VoidButterflyBoss
   m_TagString: boss
   m_Icon: {fileID: 0}

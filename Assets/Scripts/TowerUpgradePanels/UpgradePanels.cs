@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class UpgradePanels : MonoBehaviour
 {
-    private static Resources resources;
-
     [SerializeField] protected Button upgradeButton;
 
     #region RESOURCES
@@ -29,40 +27,25 @@ public class UpgradePanels : MonoBehaviour
     protected bool canBeUpgraded = false;
     protected int level;
 
-    private void Awake()
-    {
-        resources = GameObject.FindGameObjectWithTag("ResourceManager").GetComponent<Resources>();
-    }
+    private bool GoldCoinIsEnoughToUpgrade(int cost) => Resources.resources.GetGoldCoinCount() >= cost;
 
-    private bool GoldCoinIsEnoughToUpgrade(int cost)
-    {
-        return resources.GetGoldCoinCount() >= cost;
-    }
+    private bool WoodIsEnoughToUpgrade(int cost) => Resources.resources.GetWoodCount() >= cost;
 
-    private bool WoodIsEnoughToUpgrade(int cost)
-    {
-        return resources.GetWoodCount() >= cost;
-    }
+    private bool StoneIsEnoughToUpgrade(int cost) => Resources.resources.GetStoneCount() >= cost;
 
-    private bool StoneIsEnoughToUpgrade(int cost)
-    {
-        return resources.GetStoneCount() >= cost;
-    }
 
-    private bool SteelIsEnoughToUpgrade(int cost)
-    {
-        return resources.GetSteelCount() >= cost;
-    }
+    private bool SteelIsEnoughToUpgrade(int cost) => Resources.resources.GetSteelCount() >= cost;
+
 
 
     protected void SpendResource(int gold , int wood , int stone , int steel)
     {
-        resources.SpendGoldCoin(gold);
-        resources.SpendWood(wood);
-        resources.SpendStone(stone);
-        resources.SpendSteel(steel);
+        Resources.resources.SpendGoldCoin(gold);
+        Resources.resources.SpendWood(wood);
+        Resources.resources.SpendStone(stone);
+        Resources.resources.SpendSteel(steel);
 
-        resources.RefreshResources();
+        Resources.RefreshUI?.Invoke();
     }
 
     protected bool ConditionsAreSatisfied()

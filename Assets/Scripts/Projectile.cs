@@ -92,8 +92,6 @@ public class Projectile : MonoBehaviour
             foreach (Collider2D hit in colliderHits)
             {
                 EnemyAttributes enemyAttributes = hit.gameObject.GetComponent<EnemyAttributes>();
-
-
                 enemyAttributes.TakeDamage(projectileDamage);
             }
         }

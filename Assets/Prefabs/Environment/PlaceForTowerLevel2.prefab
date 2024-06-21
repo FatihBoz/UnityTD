@@ -1148,7 +1148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 909ad881d09a7624d8a9fd6eaf866424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingCosts: 4b0000005a0000006400000078000000
+  buildingCosts: 4b0000005a0000006e00000078000000
   towerMenu: {fileID: 8772024965560377933}
   menuPanel: {fileID: 8573717414416097293}
 --- !u!1 &5415609222190432897

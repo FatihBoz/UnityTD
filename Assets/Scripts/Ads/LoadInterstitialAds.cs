@@ -28,19 +28,16 @@ public class LoadInterstitialAds : MonoBehaviour, IUnityAdsLoadListener, IUnityA
 
     public void LoadAd()
     {
-        print("Ad is loading...");
         Advertisement.Load(adUnitId, this);
     }
 
     public void OnUnityAdsAdLoaded(string placementId)
     {
-        print("interstitials are loaded.");
         
     }
 
     public void OnUnityAdsFailedToLoad(string placementId, UnityAdsLoadError error, string message)
     {
-        print("loading intrestitital is failed.");
     }
 
     public void ShowAd()
@@ -50,22 +47,17 @@ public class LoadInterstitialAds : MonoBehaviour, IUnityAdsLoadListener, IUnityA
 
     public void OnUnityAdsShowClick(string placementId)
     {
-        print("Interstitial clicked.");
     }
 
     public void OnUnityAdsShowComplete(string placementId, UnityAdsShowCompletionState showCompletionState)
     {
-
-        print("interstitials are showed.");
     }
 
     public void OnUnityAdsShowFailure(string placementId, UnityAdsShowError error, string message)
     {
-        print("showing intrestitital is failed.");
     }
 
     public void OnUnityAdsShowStart(string placementId)
     {
-        print("starting to show interstitials.");
     }
 }

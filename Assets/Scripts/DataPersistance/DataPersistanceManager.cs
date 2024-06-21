@@ -55,8 +55,7 @@ public class DataPersistanceManager : MonoBehaviour
             }
             fileDataHandler.Save(gameData);
         }
-        
-        Debug.Log("Saved");
+            
     }
 
     public void LoadGame()
@@ -75,7 +74,6 @@ public class DataPersistanceManager : MonoBehaviour
             
             dataPersistanceObj.LoadData(gameData);
         }
-        Debug.Log("loaded");
     }
 
 
@@ -89,7 +87,6 @@ public class DataPersistanceManager : MonoBehaviour
 
     private void OnApplicationPause()
     {
-        print("girdi");
         SaveGame();
     }
 

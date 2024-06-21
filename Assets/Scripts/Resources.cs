@@ -1,22 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+using System;
 using UnityEngine;
 
 public class Resources : MonoBehaviour , IDataPersistance
 {
 
+    public static Resources resources;
+    public static Action RefreshUI;
+
     #region RESOURCES
-    private static int goldCoin;
-    private static int wood;  
-    private static int stone;
-    private static int steel;
+    private int goldCoin;
+    private int wood;  
+    private int stone;
+    private int steel;
     #endregion
 
-    [SerializeField] private ResourcesUI ui;
+    private void Awake()
+    {
+        if (resources != null)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
+        resources = this;
+    }
 
     public int GetGoldCoinCount()
     {
+        Debug.Log("gold coin:" + goldCoin);
         return goldCoin; 
     }
 
@@ -76,24 +87,20 @@ public class Resources : MonoBehaviour , IDataPersistance
 
     public void LoadData(GameData gameData)
     {
+        
         GainGoldCoin(gameData.gold);
         GainWood(gameData.wood);
         GainStone(gameData.stone);
         GainSteel(gameData.steel);
-
-        
+        Debug.Log("load:" + goldCoin + "+" + wood);
     }
 
     public void SaveData(ref GameData gameData)
     {
+        Debug.Log("saved:"+goldCoin + "+" + wood);
         gameData.gold = goldCoin;
         gameData.wood = wood;
         gameData.stone = stone;
         gameData.steel = steel;
-    }
-
-    public void RefreshResources()
-    {
-        ui.RefreshResources();
     }
 }

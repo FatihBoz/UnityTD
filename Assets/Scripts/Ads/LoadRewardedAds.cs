@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine.Advertisements;
 
 public class LoadRewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowListener
 {
+
     public string androidAdUnitId;
     public string iosAdUnitId;
 
@@ -31,33 +33,20 @@ public class LoadRewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 
     public void LoadAd()
     {
-        print("rewarded Ad is loading...");
         Advertisement.Load(adUnitId, this);
     }
 
-    public void OnUnityAdsAdLoaded(string placementId)
-    {
-        if(placementId == adUnitId)
-        {
-            print("rewarded are loaded.");
-        }
-        
-    }
+    public void OnUnityAdsAdLoaded(string placementId) { }
 
-    public void OnUnityAdsFailedToLoad(string placementId, UnityAdsLoadError error, string message)
-    {
-        print("loading rewarded is failed.");
-    }
+
+    public void OnUnityAdsFailedToLoad(string placementId, UnityAdsLoadError error, string message){}
 
     public void ShowAd()
     {
         Advertisement.Show(adUnitId, this);
     }
 
-    public void OnUnityAdsShowClick(string placementId)
-    {
-        print("rewarded clicked.");
-    }
+    public void OnUnityAdsShowClick(string placementId){}
 
     public void OnUnityAdsShowComplete(string placementId, UnityAdsShowCompletionState showCompletionState)
     {
@@ -74,24 +63,17 @@ public class LoadRewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
                     winPanel.OnWatchAdButtonClick();
                     break;
                 case Rewards.Gold:
-                    Resources r = GameObject.FindGameObjectWithTag("ResourceManager").GetComponent<Resources>();
-                    r.GainGoldCoin(500);
-                    r.RefreshResources();
+                    Resources.resources.GainGoldCoin(500);
+                    Resources.RefreshUI?.Invoke();
                     break;
             }
 
         }
     }
 
-    public void OnUnityAdsShowFailure(string placementId, UnityAdsShowError error, string message)
-    {
-        print("showing rewarded is failed.");
-    }
+    public void OnUnityAdsShowFailure(string placementId, UnityAdsShowError error, string message){}
 
-    public void OnUnityAdsShowStart(string placementId)
-    {
-        print("starting to show rewarded.");
-    }
+    public void OnUnityAdsShowStart(string placementId){}
 
     public enum Rewards {
         Extra_Heart,

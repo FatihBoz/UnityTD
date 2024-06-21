@@ -20,12 +20,12 @@ public class InitializeAds : MonoBehaviour , IUnityAdsInitializationListener
 
     public void OnInitializationComplete()
     {
-        print("initialized");
+
     }
 
     public void OnInitializationFailed(UnityAdsInitializationError error, string message)
     {
-        print("cant initialize");
+
     }
 
     void InitializeAd()
