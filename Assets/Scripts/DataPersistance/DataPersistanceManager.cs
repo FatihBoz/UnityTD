@@ -65,6 +65,7 @@ public class DataPersistanceManager : MonoBehaviour
         
         if (gameData == null)
         {
+            print("buraya girmemesi lazým gibi");   
             NewGame();
         }
 
@@ -88,11 +89,12 @@ public class DataPersistanceManager : MonoBehaviour
     private void OnApplicationPause()
     {
         SaveGame();
+        print("OnApplicationPause");
     }
 
     private void OnApplicationQuit()
     {
         SaveGame();
-        
+        print("OnApplicationQuit");
     }
 }

@@ -1,14 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class WinPanel : MonoBehaviour
 {
-    [Header("GameObjects")]
-    [SerializeField] private GameObject watchAdButton;
-    [SerializeField] private GameObject adIsWatchedIcon;
+
+    //[SerializeField] private GameObject watchAdButton;
+    //[SerializeField] private GameObject adIsWatchedIcon;
 
     [Header("Resource Scales")]
     public float difficultyResourceScale = 0.4f;
@@ -86,11 +84,11 @@ public class WinPanel : MonoBehaviour
         }
     }
 
-    public void OnWatchAdButtonClick()
-    {
-        watchAdButton.SetActive(false);
-        adIsWatchedIcon.SetActive(true);
-    }
+    //public void OnWatchAdButtonClick()
+    //{
+    //    watchAdButton.SetActive(false);
+    //    adIsWatchedIcon.SetActive(true);
+    //}
 
 
     public void GainResources()
@@ -114,7 +112,7 @@ public class WinPanel : MonoBehaviour
 
         goldText.text = gold.ToString();
 
-        Resources.resources.GainGoldCoin((int)gold);
+        Resources.Instance.GainGoldCoin((int)gold);
         //Gain resource
     }
 
@@ -131,7 +129,7 @@ public class WinPanel : MonoBehaviour
 
         woodText.text = wood.ToString();
 
-        Resources.resources.GainWood((int)wood);
+        Resources.Instance.GainWood((int)wood);
         //Gain resource
     }
 
@@ -148,7 +146,7 @@ public class WinPanel : MonoBehaviour
 
         stoneText.text = stone.ToString();
 
-        Resources.resources.GainStone((int)stone);
+        Resources.Instance.GainStone((int)stone);
         //Gain resource
     }
 
@@ -165,7 +163,7 @@ public class WinPanel : MonoBehaviour
 
         steelText.text = steel.ToString();
 
-        Resources.resources.GainSteel((int)steel);
+        Resources.Instance.GainSteel((int)steel);
         //Gain resource
     }
 

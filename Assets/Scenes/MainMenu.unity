@@ -167,12 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6c5bf1df5e6d294dacd19f252215fe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowTowerText: {fileID: 0}
-  slingshotTowerText: {fileID: 0}
-  shockTowerText: {fileID: 0}
-  cursedTowerText: {fileID: 0}
-  fireBomb: {fileID: 0}
-  lightning: {fileID: 0}
 --- !u!1 &217357131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,7 +1415,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b64a43c50b321b949a4892afd9a01793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ui: {fileID: 0}
 --- !u!1 &1016450355
 GameObject:
   m_ObjectHideFlags: 0

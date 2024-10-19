@@ -5,9 +5,13 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     #region[SerializeField]
+
+    [Header("Projectile Attributes")]
     [SerializeField] private float projectileSpeed;
     [SerializeField] private float projectileDamage;
     [SerializeField] private float explosionRadius;
+
+    [Header("Other")]
     [SerializeField] private LayerMask enemyLayer;
     [SerializeField] private GameObject hitEffect;
     #endregion

@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Resources;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,23 +23,23 @@ public class UpgradePanels : MonoBehaviour
     protected bool canBeUpgraded = false;
     protected int level;
 
-    private bool GoldCoinIsEnoughToUpgrade(int cost) => Resources.resources.GetGoldCoinCount() >= cost;
+    private bool GoldCoinIsEnoughToUpgrade(int cost) => Resources.Instance.GetGoldCoinCount() >= cost;
 
-    private bool WoodIsEnoughToUpgrade(int cost) => Resources.resources.GetWoodCount() >= cost;
+    private bool WoodIsEnoughToUpgrade(int cost) => Resources.Instance.GetWoodCount() >= cost;
 
-    private bool StoneIsEnoughToUpgrade(int cost) => Resources.resources.GetStoneCount() >= cost;
+    private bool StoneIsEnoughToUpgrade(int cost) => Resources.Instance.GetStoneCount() >= cost;
 
 
-    private bool SteelIsEnoughToUpgrade(int cost) => Resources.resources.GetSteelCount() >= cost;
+    private bool SteelIsEnoughToUpgrade(int cost) => Resources.Instance.GetSteelCount() >= cost;
 
 
 
     protected void SpendResource(int gold , int wood , int stone , int steel)
     {
-        Resources.resources.SpendGoldCoin(gold);
-        Resources.resources.SpendWood(wood);
-        Resources.resources.SpendStone(stone);
-        Resources.resources.SpendSteel(steel);
+        Resources.Instance.SpendGoldCoin(gold);
+        Resources.Instance.SpendWood(wood);
+        Resources.Instance.SpendStone(stone);
+        Resources.Instance.SpendSteel(steel);
 
         Resources.RefreshUI?.Invoke();
     }
@@ -109,7 +105,7 @@ public class UpgradePanels : MonoBehaviour
     }
     protected virtual void RefreshInformation()
     {
-        //every subclass should override this method
+
         print("refreshed");
     }
 

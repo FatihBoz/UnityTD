@@ -8,8 +8,8 @@ public class Currency : MonoBehaviour
     public static int coin;
 
     [SerializeField] private TextMeshProUGUI coinText;
+    [SerializeField] private int initialCoinAmount;
 
-    private readonly int initialCoinAmount = 1000;
 
     private void Start()
     {

@@ -1,10 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
     public static PauseMenu instance;
+    public static Action OnPauseFinished;
 
     public bool isPaused;
     public GameObject pauseMenu;
@@ -27,7 +27,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenu.SetActive(false);
 
-        Time.timeScale = 1f;
+        OnPauseFinished?.Invoke();
 
         isPaused = false;
     }

@@ -389,7 +389,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,6 +397,69 @@ TextureImporter:
       bones: []
       spriteID: 07eafd20691d8cb4f84380324bf5e384
       internalID: -204015143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button UI_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 4
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557ee528e5d36f14fb651d8a233d6c8f
+      internalID: -1123796610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button UI_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 4
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0c80164926899408bbe2156a044713
+      internalID: -354187236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button UI_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 4
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ac49d7dc485c04088d32908c56971c
+      internalID: -114539213
       vertices: []
       indices: 
       edges: []
@@ -415,6 +478,7 @@ TextureImporter:
       button UI_0: -661678156
       button UI_1: 85879360
       button UI_11: -539049936
+      button UI_15: -114539213
       button UI_3: -1350608448
       button UI_8: -1296651212
       button UI_7: -1813835230
@@ -423,7 +487,9 @@ TextureImporter:
       button UI_9: 1694240957
       button UI_6: -80310363
       button UI_10: -834809782
+      button UI_14: -354187236
       button UI_12: -2133461129
+      button UI_13: -1123796610
       button UI_2: 622061588
   spritePackingTag: 
   pSDRemoveMatte: 0

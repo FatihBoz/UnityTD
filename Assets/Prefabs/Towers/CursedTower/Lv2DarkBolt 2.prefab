@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4637397b64a27648aa0c020d8fc289e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayTime: 1.1
+  delayTime: 1
   offSet: {x: 0, y: 0.75, z: 0}
   enemyLayer:
     serializedVersion: 2

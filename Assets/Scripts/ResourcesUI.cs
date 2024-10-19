@@ -17,34 +17,19 @@ public class ResourcesUI : MonoBehaviour
         ResourcesUI_RefreshResources();
     }
 
-    void RefreshGoldText(int goldCoin)
-    {
-        goldText.text = goldCoin.ToString();
-    }
 
-    void RefreshWoodText(int wood)
+    void RefreshText(int amount, TextMeshProUGUI text)
     {
-        woodText.text = wood.ToString();
-        
-    }
-
-    void RefreshStoneText(int stone)
-    {
-        stoneText.text = stone.ToString();
-    }
-
-    void RefreshSteelText(int steel)
-    {
-        steelText.text = steel.ToString();
+        text.text = amount.ToString();
     }
 
 
     public void ResourcesUI_RefreshResources()
     {
-        RefreshGoldText(Resources.resources.GetGoldCoinCount());
-        RefreshWoodText(Resources.resources.GetWoodCount());
-        RefreshStoneText(Resources.resources.GetStoneCount());
-        RefreshSteelText(Resources.resources.GetSteelCount());
+        RefreshText(Resources.Instance.GetGoldCoinCount(),goldText);
+        RefreshText(Resources.Instance.GetWoodCount(),woodText);
+        RefreshText(Resources.Instance.GetStoneCount(),stoneText);
+        RefreshText(Resources.Instance.GetSteelCount(),steelText);
     }
 
     private void OnEnable()

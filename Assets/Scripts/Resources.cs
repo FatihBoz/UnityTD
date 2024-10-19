@@ -4,25 +4,29 @@ using UnityEngine;
 public class Resources : MonoBehaviour , IDataPersistance
 {
 
-    public static Resources resources;
+    public static Resources Instance;
+
     public static Action RefreshUI;
 
-    #region RESOURCES
-    private int goldCoin;
-    private int wood;  
-    private int stone;
-    private int steel;
+
+    //STATIC OLDUKLARI ÝÇÝN AÇ KAPA YAPTIÐINDA KAYNAKLAR ÝKÝYE KATLANIYOR.
+    #region RESOURCES 
+    private static int goldCoin;
+    private static int wood;  
+    private static int stone;
+    private static int steel;
     #endregion
 
     private void Awake()
     {
-        if (resources != null)
+        if (Instance != null)
         {
             Destroy(this.gameObject);
             return;
         }
 
-        resources = this;
+        Instance = this;
+        
     }
 
     public int GetGoldCoinCount()
@@ -43,7 +47,6 @@ public class Resources : MonoBehaviour , IDataPersistance
     {
         return steel;
     }
-
 
     public void GainGoldCoin(int coin)
     {
@@ -87,20 +90,25 @@ public class Resources : MonoBehaviour , IDataPersistance
 
     public void LoadData(GameData gameData)
     {
-        
-        GainGoldCoin(gameData.gold);
-        GainWood(gameData.wood);
-        GainStone(gameData.stone);
-        GainSteel(gameData.steel);
-        Debug.Log("load:" + goldCoin + "+" + wood);
+        goldCoin = gameData.gold;
+        wood = gameData.wood;
+        stone = gameData.stone;
+        steel = gameData.steel;
+        //GainGoldCoin(gameData.gold);
+        //GainWood(gameData.wood);
+        //GainStone(gameData.stone);
+        //GainSteel(gameData.steel);
     }
 
     public void SaveData(ref GameData gameData)
     {
-        Debug.Log("saved:"+goldCoin + "+" + wood);
+        print(goldCoin);
         gameData.gold = goldCoin;
         gameData.wood = wood;
         gameData.stone = stone;
         gameData.steel = steel;
     }
+
+
 }
+

@@ -3,39 +3,52 @@ using UnityEngine;
 
 public class UpgradeSceneManager : MonoBehaviour, IDataPersistance
 {
+    private static readonly string arrowTowerName = "ArrowTower";
+
+    private static readonly string slingshotTowerName = "SlingshotTower";
+
+    private static readonly string shockTowerName = "ShockTower";
+
+    private static readonly string cursedTowerName = "CursedTower";
+
+    private static readonly string lightningSkillName = "Lightning";
+
+    private static readonly string FireBombSkillName = "FireBomb";
+
+
     public static Dictionary<string, int> towerLevels = new()
     {
-        {"ArrowTower", 1},
-        {"SlingshotTower", 1},
-        {"ShockTower", 1},
-        {"CursedTower", 1},
+        {arrowTowerName, 1},
+        {slingshotTowerName, 1},
+        {shockTowerName, 1},
+        {cursedTowerName, 1},
     };
 
     public static Dictionary<string, int> skillLevels = new()
     {
-       {"Lightning", 1},
-       {"FireBomb", 1}
+       {lightningSkillName, 1},
+       {FireBombSkillName, 1}
     };
 
     public void LoadData(GameData gameData)
     {
-        towerLevels["ArrowTower"] = gameData.arrowTowerLevel;
-        towerLevels["SlingshotTower"] = gameData.slingshotTowerLevel;
-        towerLevels["ShockTower"] = gameData.shockTowerLevel;
-        towerLevels["CursedTower"] = gameData.cursedTowerLevel;
+        towerLevels[arrowTowerName] = gameData.arrowTowerLevel;
+        towerLevels[slingshotTowerName] = gameData.slingshotTowerLevel;
+        towerLevels[shockTowerName] = gameData.shockTowerLevel;
+        towerLevels[cursedTowerName] = gameData.cursedTowerLevel;
 
-        skillLevels["Lightning"] = gameData.lightningLevel;
-        skillLevels["FireBomb"] = gameData.fireBombLevel;
+        skillLevels[lightningSkillName] = gameData.lightningLevel;
+        skillLevels[FireBombSkillName] = gameData.fireBombLevel;
     }
 
     public void SaveData(ref GameData gameData)
     {
-        gameData.arrowTowerLevel = towerLevels["ArrowTower"];
-        gameData.slingshotTowerLevel = towerLevels["SlingshotTower"];
-        gameData.shockTowerLevel = towerLevels["ShockTower"];
-        gameData.cursedTowerLevel = towerLevels["CursedTower"];
+        gameData.arrowTowerLevel = towerLevels[arrowTowerName];
+        gameData.slingshotTowerLevel = towerLevels[slingshotTowerName];
+        gameData.shockTowerLevel = towerLevels[shockTowerName];
+        gameData.cursedTowerLevel = towerLevels[cursedTowerName];
 
-        gameData.lightningLevel = skillLevels["Lightning"];
-        gameData.fireBombLevel = skillLevels["FireBomb"];
+        gameData.lightningLevel = skillLevels[lightningSkillName];
+        gameData.fireBombLevel = skillLevels[FireBombSkillName];
     }
 }

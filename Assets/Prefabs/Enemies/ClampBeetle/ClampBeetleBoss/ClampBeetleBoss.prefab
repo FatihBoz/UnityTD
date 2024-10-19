@@ -223,8 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e941be4b230068a46b7a39b43b5ed6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MS: 0.8
-  maxHP: 500
+  MS: 0.75
+  maxHP: 400
   hpPowerScale: 0.4
   speedPowerScale: 0.2
   img: {fileID: 2654227514307177433}

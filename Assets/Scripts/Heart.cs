@@ -34,7 +34,8 @@ public class Heart : MonoBehaviour
         if(IsFinished())
         {
             PauseMenu.instance.PauseGame();
-            LevelManager.main.survivePanel.SetActive(true);
+            LevelFailed();
+            //LevelManager.main.survivePanel.SetActive(true);
         }
     }
 
@@ -45,7 +46,7 @@ public class Heart : MonoBehaviour
 
     public void LevelFailed()
     {
-        LevelManager.main.survivePanel.SetActive(false);
+        //LevelManager.main.survivePanel.SetActive(false);
         LevelManager.main.losePanel.SetActive(true);
         PauseMenu.instance.PauseGame();
     }

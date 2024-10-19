@@ -11,6 +11,7 @@ public class LoadRewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
     public string iosAdUnitId;
 
     string adUnitId;
+    int goldRewardAmount = 500;
 
     public Rewards reward;
 
@@ -60,11 +61,11 @@ public class LoadRewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
                 case Rewards.Double_Resource:
                     WinPanel winPanel = GameObject.FindGameObjectWithTag("WinPanel").GetComponent<WinPanel>();
                     winPanel.GainResources();
-                    winPanel.OnWatchAdButtonClick();
+                    //winPanel.OnWatchAdButtonClick();
                     break;
                 case Rewards.Gold:
-                    Resources.resources.GainGoldCoin(500);
-                    Resources.RefreshUI?.Invoke();
+                    Resources.Instance.GainGoldCoin(goldRewardAmount);
+                    //Resources.RefreshUI?.Invoke();
                     break;
             }
 

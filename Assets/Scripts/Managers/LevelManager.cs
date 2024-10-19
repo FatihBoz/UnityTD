@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour , IDataPersistance
     [Header("PANEL")]
     public GameObject winPanel;
     public GameObject losePanel;
-    public GameObject survivePanel; 
+    //public GameObject survivePanel; 
 
     [Header("ANOTHER")]
     public Transform spawnPoint;

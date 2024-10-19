@@ -35,7 +35,14 @@ public class CursedTower : Tower
     {
         animator.SetTrigger("Attack");
 
-        Instantiate(projectilePrefab, target.position, Quaternion.identity);
+        GameObject obj = Instantiate(projectilePrefab, target.position, Quaternion.identity);
+
+        if (obj.TryGetComponent<AudioSource>(out var sf) && !SettingsMenu.sfxOn)
+        {
+            sf.mute = true;
+        }
+
+
     }
 
 
