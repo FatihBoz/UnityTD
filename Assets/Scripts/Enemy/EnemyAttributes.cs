@@ -1,11 +1,11 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class EnemyAttributes : MonoBehaviour
 {
+    public static Action<GameObject> OnEnemyDied;
+
     #region PUBLIC
     public float MS;
     public float maxHP;
@@ -21,22 +21,19 @@ public class EnemyAttributes : MonoBehaviour
     #endregion
 
     #region PRIVATE
-    
+
     private float currentHP;
-    private Currency currency;
     #endregion
 
-    private void Awake()
-    {
-        currency = GameObject.FindGameObjectWithTag("Currency").GetComponent<Currency>();
-    }
 
-    private void Start()
+    private void OnEnable()
     {
         SetDifficultyLevel();
         currentHP = maxHP;
-    }
+        img.gameObject.SetActive(false); //Make health bar invisible
+        RefreshHealthBar(maxHP,currentHP);
 
+    }
 
     private void RefreshHealthBar(float maxHp , float currentHp)
     {
@@ -55,7 +52,7 @@ public class EnemyAttributes : MonoBehaviour
 
         if (currentHP <= 0)
         {
-            currency.CoinToText(goldGainedFromEnemy, true);
+            Currency.OnInGameCoinCollected?.Invoke(goldGainedFromEnemy);
 
             Instantiate(dieEffect,transform.position,Quaternion.identity);
 
@@ -64,9 +61,12 @@ public class EnemyAttributes : MonoBehaviour
                 LevelManager.main.winPanel.SetActive(true);
 
                 LevelManager.lastUnlockedLevel++;
+
+                Destroy(gameObject);
+                return;
             }
 
-            Destroy(gameObject);
+            OnEnemyDied?.Invoke(this.gameObject);
         }
         else
         {

@@ -40,6 +40,7 @@ public class Projectile : MonoBehaviour
 
     private void FixedUpdate()
     { 
+        CheckIfTargetIsActive();
         
         if (target == null)
         {
@@ -54,6 +55,7 @@ public class Projectile : MonoBehaviour
 
     void Movement()
     {  
+        
         Vector2 dir = target.position - transform.position;
 
         dir = dir.normalized;
@@ -70,6 +72,14 @@ public class Projectile : MonoBehaviour
         transform.rotation = rotation;
 
         // Rotation speed may be necessary.
+    }
+
+    void CheckIfTargetIsActive()
+    {
+        if (!target.gameObject.activeInHierarchy)
+        {
+            Destroy(gameObject);
+        }
     }
 
 

@@ -1,10 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using TMPro;
 using UnityEngine;
 
 public class Currency : MonoBehaviour
 {
+    public static Action<int> OnInGameCoinCollected;
     public static int coin;
 
     [SerializeField] private TextMeshProUGUI coinText;
@@ -28,7 +28,32 @@ public class Currency : MonoBehaviour
             coin -= value;
         }
 
+        
+    }
+
+
+    void CollectCoin(int value)
+    {
+        coin += value;
+
         coinText.text = coin.ToString();
+    }
+
+    private void Currency_OnCoinCollected(int coin)
+    {
+        CollectCoin(coin);
+    }
+
+
+    private void OnEnable()
+    {
+        OnInGameCoinCollected += Currency_OnCoinCollected;
+    }
+
+
+    private void OnDisable()
+    {
+        OnInGameCoinCollected -= Currency_OnCoinCollected;    
     }
 
 }

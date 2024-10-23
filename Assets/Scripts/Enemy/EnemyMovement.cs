@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public static Action<GameObject> OnEnemyPassed;
+
     public float curseSlowPercentage;
     public float curseTime;
 
@@ -12,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
     private float remainingCurseTime;
     private float currentSpeed;
     private float maxSpeed;
-    private int pathIndex = 0;
+    private int pathIndex;
     #endregion
 
     #region REFERENCES  
@@ -20,7 +23,6 @@ public class EnemyMovement : MonoBehaviour
     private Rigidbody2D rb;
     private EnemyAttributes enemyAttributes;
     private Animator animator;
-    private Heart heart;
     #endregion
 
     #region COLORS
@@ -31,15 +33,15 @@ public class EnemyMovement : MonoBehaviour
 
     private void Awake()
     {
-        heart = GameObject.FindGameObjectWithTag("Heart").GetComponent<Heart>();  
         rb = GetComponent<Rigidbody2D>();
         enemyAttributes = GetComponent<EnemyAttributes>();
         animator = GetComponent<Animator>();
         defaultColor = GetComponent<SpriteRenderer>().color;
     }
 
-    private void Start()
+    private void OnEnable()
     {
+        pathIndex = 0;
         target = LevelManager.main.path[pathIndex];
 
         maxSpeed = enemyAttributes.MS;
@@ -47,6 +49,7 @@ public class EnemyMovement : MonoBehaviour
 
         cursedColor = new Color(0.6f, 0.6f, 0.6f);
     }
+
 
     private void Update()
     {
@@ -56,8 +59,8 @@ public class EnemyMovement : MonoBehaviour
 
             if (pathIndex >= LevelManager.main.path.Count)
             {
-                heart.EnemyPassed(this.gameObject);
-                Destroy(this.gameObject);
+                OnEnemyPassed?.Invoke(this.gameObject); 
+                EnemyAttributes.OnEnemyDied?.Invoke(this.gameObject);
             }
             else
             {

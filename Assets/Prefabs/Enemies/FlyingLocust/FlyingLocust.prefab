@@ -259,10 +259,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e941be4b230068a46b7a39b43b5ed6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MS: 1.55
+  MS: 1.5
   maxHP: 18
-  hpPowerScale: 0.5
-  speedPowerScale: 0.2
+  hpPowerScale: 0.3
+  speedPowerScale: 0.1
   img: {fileID: 8375263041989002664}
   offSet: {x: 0, y: 0.16, z: 0}
   dieEffect: {fileID: 2078161971024290732, guid: bd580eb9fec66df4bb5fd8c2207e9d57, type: 3}

@@ -9,29 +9,23 @@ public class BuildingManager : MonoBehaviour
 
 
     [SerializeField] private GameObject buildingAnim;
-
+    [SerializeField] private SFXManager sfxManager;
+ 
     #region PRIVATE
     private float buildingTime = 2.7f;
     private GameObject placeForTower;
     private GameObject gameObjToInstantiate;
     private Vector3 point;
-    private Currency currency;
-    private SFXManager sfxManager;
     #endregion
 
     private void Awake()
     {
         main = this;
-
-        sfxManager = GameObject.FindWithTag("SFX").GetComponent<SFXManager>();
-
-        currency = GameObject.FindGameObjectWithTag("Currency").GetComponent<Currency>();
-
     }
 
     public void Build_Upgrade(GameObject placeForTower ,GameObject gameObjToInstantiate, Vector3 point, int cost)
     {
-        currency.CoinToText(cost, false);  //spend gold coin to upgrade
+        Currency.OnInGameCoinCollected?.Invoke((-1) * cost);  //spend gold coin to upgrade
 
         this.gameObjToInstantiate = gameObjToInstantiate;   //which tower will be instantiated
 

@@ -362,7 +362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MS: 1.2
   maxHP: 38
-  hpPowerScale: 0.6
+  hpPowerScale: 0.2
   speedPowerScale: 0.2
   img: {fileID: 5108657758543097303}
   offSet: {x: 0, y: 0.15, z: 0}

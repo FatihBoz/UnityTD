@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class Tower : MonoBehaviour
@@ -95,7 +92,7 @@ public class Tower : MonoBehaviour
 
     protected void CheckTargetInRange()
     {
-        if (Vector2.Distance(transform.position, target.position) > attackRange)
+        if (Vector2.Distance(transform.position, target.position) > attackRange || !target.gameObject.activeInHierarchy)
         {
             target = null;
         }
@@ -104,7 +101,7 @@ public class Tower : MonoBehaviour
     protected virtual void SetAdditionalAttackPower()
     {
         additionalAttackPower = UpgradeSceneManager.towerLevels["ArrowTower"] * ArrowTowerUpgrade.additionalAttackDamagePerLevel;
-        print("Additional AD:" + additionalAttackPower);
+        
     }
  
 }

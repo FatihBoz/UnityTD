@@ -224,9 +224,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MS: 0.75
-  maxHP: 400
-  hpPowerScale: 0.4
-  speedPowerScale: 0.2
+  maxHP: 355
+  hpPowerScale: 0.2
+  speedPowerScale: 0.15
   img: {fileID: 2654227514307177433}
   offSet: {x: 0, y: 0.3, z: 0}
   dieEffect: {fileID: 7735604835818888648}

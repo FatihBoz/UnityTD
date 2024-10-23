@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 3480169819357912569}
   m_Layer: 7
   m_Name: Scorpion
-  m_TagString: boss
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MS: 0.9
-  maxHP: 65
-  hpPowerScale: 0.5
-  speedPowerScale: 0.35
+  maxHP: 50
+  hpPowerScale: 0.15
+  speedPowerScale: 0.3
   img: {fileID: 5894349699209261784}
   offSet: {x: 0, y: 0.15, z: 0}
   dieEffect: {fileID: 2078161971024290732, guid: fd474326ab725dc45a74fb27b86e9f5f, type: 3}

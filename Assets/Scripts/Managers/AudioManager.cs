@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,7 +10,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip levelClip;
 
     private AudioClip currentClip;
-    AudioSource audioSource;
+    private AudioSource audioSource;
 
     private void Awake()
     {
@@ -51,13 +49,12 @@ public class AudioManager : MonoBehaviour
 
     void PlaySoundTrack(AudioClip soundtrack)
     {
-        if(soundtrack != currentClip)
+        if(soundtrack != currentClip && SettingsMenu.musicOn)
         {
             instance.audioSource.clip = soundtrack;
             audioSource.Play();
         }
     }
-
 
     public AudioSource GetAudioSource()
     {

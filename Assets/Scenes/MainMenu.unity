@@ -2310,7 +2310,6 @@ MonoBehaviour:
   towers: []
   winPanel: {fileID: 0}
   losePanel: {fileID: 0}
-  survivePanel: {fileID: 0}
   spawnPoint: {fileID: 0}
   enemyBossPrefab: {fileID: 0}
   totalWaveCount: 0
@@ -2622,7 +2621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuClip: {fileID: 8300000, guid: d9d23ed8375012840a55ce9991097292, type: 3}
-  levelClip: {fileID: 8300000, guid: 0003598ce2c5f6340979aa25f0765072, type: 3}
+  levelClip: {fileID: 8300000, guid: c46bf771656b57f4f81ce07389dd4993, type: 3}
 --- !u!4 &1937585812
 Transform:
   m_ObjectHideFlags: 0

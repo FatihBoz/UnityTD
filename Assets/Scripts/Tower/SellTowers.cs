@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SellTowers : MonoBehaviour
@@ -8,14 +6,11 @@ public class SellTowers : MonoBehaviour
 
     private GameObject placeForTower;
     private TowerUpgrade towerUpgrade;
-    private Currency currency;
 
 
     private void Awake()
     {
         towerUpgrade = GetComponent<TowerUpgrade>();
-        
-        currency = GameObject.FindGameObjectWithTag("Currency").GetComponent<Currency>();
     }
 
 
@@ -36,7 +31,7 @@ public class SellTowers : MonoBehaviour
 
     void RefreshCoinCount()
     {
-        currency.CoinToText(GoldsReturn(),true);
+        Currency.OnInGameCoinCollected?.Invoke(GoldsReturn());
     }
 
 

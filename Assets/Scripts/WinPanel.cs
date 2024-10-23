@@ -44,8 +44,6 @@ public class WinPanel : MonoBehaviour
     {
         PauseMenu.instance.PauseGame();
 
-        GameObject.FindGameObjectWithTag("AdsManager").GetComponent<LoadInterstitialAds>().ShowAd();
-
         DetermineLevel();
         DisplayDifficulty();
         GainResources(); 

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -55,6 +56,21 @@ public class Heart : MonoBehaviour
     {
         currentHeartCount += 2;
         heartText.text = currentHeartCount.ToString();
+    }
+
+    private void OnEnable()
+    {
+        EnemyMovement.OnEnemyPassed += Heart_OnEnemyPassed;
+    }
+
+    private void Heart_OnEnemyPassed(GameObject enemy)
+    {
+        EnemyPassed(enemy);
+    }
+
+    private void OnDisable()
+    {
+        EnemyMovement.OnEnemyPassed -= Heart_OnEnemyPassed;
     }
 
 }

@@ -31,7 +31,6 @@ public class Resources : MonoBehaviour , IDataPersistance
 
     public int GetGoldCoinCount()
     {
-        Debug.Log("gold coin:" + goldCoin);
         return goldCoin; 
     }
 
@@ -94,15 +93,10 @@ public class Resources : MonoBehaviour , IDataPersistance
         wood = gameData.wood;
         stone = gameData.stone;
         steel = gameData.steel;
-        //GainGoldCoin(gameData.gold);
-        //GainWood(gameData.wood);
-        //GainStone(gameData.stone);
-        //GainSteel(gameData.steel);
     }
 
     public void SaveData(ref GameData gameData)
     {
-        print(goldCoin);
         gameData.gold = goldCoin;
         gameData.wood = wood;
         gameData.stone = stone;

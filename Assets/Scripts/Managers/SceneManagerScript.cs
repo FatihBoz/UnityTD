@@ -10,6 +10,12 @@ public class SceneManagerScript : MonoBehaviour
     public Animator animator;
 
     public float transitionTime = 1f;
+
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     public void ChangeScene(string nameOfScene)
     {
         StartCoroutine(LoadScene(nameOfScene));

@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
     #region[SerializeField]
-    [Header("FLOATS")]
+    [Header("FLOAT VALUES")]
     [SerializeField]private float timeBetweenEnemies;
     [SerializeField]private float timeBetweenWaves;
 
@@ -14,10 +12,13 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]private TextMeshProUGUI currentWaveCount;
     [SerializeField] private TextMeshProUGUI timeToStartUI;
 
-    [Header("GAMEOBJECT")]
+    [Header("UI")]
     [SerializeField] private GameObject timeCounterPanel;
-    [SerializeField]private GameObject startWaveButton;
+    [SerializeField] private GameObject startWaveButton;
     [SerializeField] private GameObject winPanel;
+
+    [Header("Object Pool")]
+    [SerializeField] private ObjectPool objectPool;
     #endregion
 
     #region PRIVATE VARIABLES
@@ -123,21 +124,27 @@ public class EnemySpawner : MonoBehaviour
         if (currentWave >= LevelManager.main.totalWaveCount)
         {
             enemyPrefab = LevelManager.main.enemyBossPrefab;
+            Instantiate(enemyPrefab, LevelManager.main.spawnPoint.position, Quaternion.identity);
+            enemiesLeftToSpawn--;
+            timeLeftToNextEnemy = 0;
+            return;
         }
+        
         else if (currentWave >= LevelManager.main.totalWaveCount / 2 && LevelManager.main.enemyPrefabs.Count >= 2)
         {
-             enemyPrefab = LevelManager.main.enemyPrefabs[1];
+            enemyPrefab = objectPool.GetObjectFromPool(1);
         }
+
         else
         {
-            enemyPrefab = LevelManager.main.enemyPrefabs[0];
+            enemyPrefab = objectPool.GetObjectFromPool(0);
         }
 
 
-        Instantiate(enemyPrefab, LevelManager.main.spawnPoint.position, Quaternion.identity);
+        enemyPrefab.transform.position = LevelManager.main.spawnPoint.position;
+        enemyPrefab.SetActive(true);
 
         enemiesLeftToSpawn--;
-
         timeLeftToNextEnemy = 0;
     }
 
@@ -153,6 +160,24 @@ public class EnemySpawner : MonoBehaviour
     private int EnemyCountPerWave()
     {
         return Mathf.RoundToInt(Mathf.Pow(currentWave, 0.75f) * 7f);
+    }
+
+
+    private void EnemySpawner_OnEnemyDied(GameObject enemy)
+    {
+        objectPool.ReturnToPool(enemy);
+    }
+
+
+    private void OnEnable()
+    {
+        EnemyAttributes.OnEnemyDied += EnemySpawner_OnEnemyDied;
+    }
+
+
+    private void OnDisable()
+    {
+        EnemyAttributes.OnEnemyDied -= EnemySpawner_OnEnemyDied;
     }
 
 

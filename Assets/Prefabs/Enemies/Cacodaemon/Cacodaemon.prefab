@@ -328,8 +328,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MS: 1
   maxHP: 27
-  hpPowerScale: 0.5
-  speedPowerScale: 0.2
+  hpPowerScale: 0.2
+  speedPowerScale: 0.15
   img: {fileID: 614860781739726237}
   offSet: {x: 0, y: 0.15, z: 0}
   dieEffect: {fileID: 2078161971024290732, guid: 831b964aab5350743af62d7ecd3136ce, type: 3}
